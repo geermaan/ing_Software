@@ -90,7 +90,7 @@ footer img{
     box-sizing: border-box;
     width: 31%;
      margin-left: 15%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(255,0,0,0.4);
     
 }
 
@@ -110,7 +110,7 @@ h2{
     box-sizing: border-box;
     width: 30%;
     margin-left: 58%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(255,0,0,0.4);
 }
 .vision{
     position: absolute;
@@ -120,7 +120,7 @@ h2{
     box-sizing: border-box;
     width: 30%;
     margin-left: 58%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(255,0,0,0.4);
 }
 p{
     color: white;
