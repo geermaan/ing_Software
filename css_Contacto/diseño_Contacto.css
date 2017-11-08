@@ -1,0 +1,143 @@
+{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url(fondop1.png);
+    background-size: 100%  100%;
+    background-attachment: fixed;
+}
+header {
+    background-color:black;
+    box-shadow: 0 -1px 2px black;
+    color:white;
+    display:block;
+    height:80px;
+    position:relative;
+    width:100%;
+    background-attachment: fixed;
+}
+header img{
+    margin-left:625px;
+    padding:22px 0;
+    position:absolute;
+    background-attachment: fixed;
+    width: 10%;
+}
+
+header a.stuts,a.stuts:visited{
+    border:none;
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+    left:50%;
+    line-height:31px;
+    margin:23px 0 0 110px;
+    position:absolute;
+    top:0;
+}
+header .stuts span {
+    font-size:22px;
+    font-weight:bold;
+    margin-left:5px;
+}
+.container {
+    height: 500px;
+    margin: 30px auto;
+    width: 900px;
+    font-family: monospace;
+    font-size: 15;
+}
+
+footer{
+   background-color: black;
+   position: absolute;
+   bottom: 9px;
+   width: 98.9%;
+   height: 80px;
+}
+footer img{
+    margin-left:500px;
+    padding:50px 20;
+    bottom: 5px;
+    position:absolute;
+    background-attachment: fixed;
+    width:70px;
+}
+
+.img1{
+    margin-left:650px;
+    padding:50px 20;
+    bottom: 5px;
+    position:absolute;
+    background-attachment: fixed;
+    width:70px;
+}
+
+.img2{
+    margin-left:800px;
+    padding:50px 20;
+    bottom: 5px;
+    position:absolute;
+    background-attachment: fixed;
+    width:70px;
+}
+
+form{
+    width: 450px;
+    margin:auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-left: 60%;
+    border-radius: 7px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+input, textarea{
+    width:100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border:none;
+}
+.logo{
+    position: absolute;
+    top:27%;
+    margin-left: -10%;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+.contacto{
+    position: absolute;
+    top:27%;
+    margin-left: 35%;
+}
